@@ -30,20 +30,20 @@ body.tema-claro {
   box-sizing: border-box;
 }
 
-/* Tirar dúvida disso depois */
+
 [hidden] {
   display: none !important;
 }
 
 
 html{
-  scroll-behavior: smooth;               /* Tirar dúvida disso depois */ 
+  scroll-behavior: smooth;                
 }
 
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-  font-family: "Poppins", sans-serif;   /* Tirar dúvida disso depois */ 
+  font-family: "Poppins", sans-serif;   
   line-height: 1.6;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -75,7 +75,7 @@ header nav ul {
   backdrop-filter: blur(4px);
 }
 
-/* Tirar dúvida disso depois */ 
+ 
 header nav a {
   color: var(--cor-texto);
   text-decoration: none;
@@ -83,12 +83,12 @@ header nav a {
   transition: opacity 0.2s;
 }
 
-/* Tirar dúvida disso depois */ 
+
 header nav a:hover {
   opacity: 0.75;
 }
 
-/* Tirar dúvida disso depois */
+
 #botao-tema {
   background-color: var(--cor-card);
   color: var(--cor-texto);
@@ -109,10 +109,10 @@ img {
 }
 section {
   width: 100%;
-  min-width: 100vh;   /* Tirar dúvida disso depois */
+  min-width: 100vh;   
   display: flex;
   flex-direction: column;
-  padding: 100px 24px 60px;   /* Tirar dúvida disso depois */
+  padding: 100px 24px 60px;   
 }
 
 .secao-inicio {
@@ -149,7 +149,7 @@ section {
 
 .texto-inicial {
   text-align: left;
-  max-width: 480px;   /* Tirar dúvida disso depois */
+  max-width: 480px;   
 }
 
 .texto-inicial h2 {
@@ -158,7 +158,7 @@ section {
 
 .codigo_decorativo {
   border-radius: 20px;
-  max-width: 400px;   /* Tirar dúvida disso depois */
+  max-width: 400px;   
 }
 
 .secao-sobre {
@@ -170,12 +170,12 @@ section {
   text-align: center;
 }
 
-/* Tirar dúvida disso depois */
+
 .coluna h2, .coluna h3 {
   margin-bottom: 8px;
 }
 
-/* Tirar dúvida disso depois */
+
 .sobre-extra {
   background-color: var(--cor-card);
   border: 1px solid var(--cor-borda);
@@ -184,7 +184,7 @@ section {
   max-width: 680px;
 }
 
-/* Tirar dúvida disso depois */
+
 .botao-secundario {
   background-color: transparent;
   color: var(--cor-destaque);
@@ -195,7 +195,7 @@ section {
   cursor: pointer;
 }
 
-/* Tirar dúvida disso depois */
+
 .botao-git a {
   display: inline-flex;
   align-items: center;
@@ -227,7 +227,7 @@ section {
   max-width: 620px;
 }
 
-/* Tirar dúvida disso depois */
+
 .card {
   width: 185px;
   padding: 20px 12px;
@@ -253,7 +253,7 @@ section {
   margin: 0 auto;
 }
 
-/* Tirar dúvida disso depois */
+
 .barra-filtro {
   display: flex;
   align-items: center;
@@ -262,7 +262,7 @@ section {
 }
 
 
-/* Tirar dúvida disso depois */
+
 .barra-filtro select {
   background-color: var(--cor-card);
   color: var(--cor-texto);
@@ -273,7 +273,7 @@ section {
 }
 
 
-/* Tirar dúvida disso depois */
+
 .lista-projetos {
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +282,7 @@ section {
   width: 100%;
 }
 
-/* Tirar dúvida disso depois */
+
 .card-projeto {
   background-color: var(--cor-card);
   border: 1px solid var(--cor-borda);
@@ -296,13 +296,13 @@ section {
   gap: 12px;
 }
 
-/* Tirar dúvida disso depois */
+
 .tech-projeto {
   font-size: 0.9rem;
   color: var(--cor-texto-suave);
 }
 
-/* Tirar dúvida disso depois */
+
 .botao-projeto {
   display: inline-block;
   align-self: flex-start;
@@ -316,7 +316,7 @@ section {
   font-weight: 500;
 }
 
-/* Tirar dúvida disso depois */
+
 .botao-projeto:hover {
   background-color: var(--cor-destaque-hover);
 }

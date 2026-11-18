@@ -100,7 +100,7 @@ Essa separação evitou efeitos colaterais (como um erro oculto no campo *Assunt
 
 ## Como o Contato Funciona
 
-1. **Canais diretos e transparência:** A coluna esquerda exibe e-mail institucional (`carlito.rodrigues@ucsal.edu.br`), links externos para GitHub e LinkedIn e um aviso explícito informando que o formulário é uma demonstração acadêmica sem disparo real de e-mail.
+1. **Canais diretos e transparência:** A coluna esquerda exibe e-mail institucional (`carlito.neto@ucsal.edu.br`), links externos para GitHub e LinkedIn e um aviso explícito informando que o formulário é uma demonstração acadêmica sem disparo real de e-mail.
 2. **Interação em tempo real:** Conforme o usuário digita na mensagem (`input`), o contador calcula `campoMensagem.value.trim().length` para contabilizar apenas caracteres úteis até o limite de `1000`. Quando o motivo muda (`change`), o campo `Assunto adicional` é exibido e habilitado apenas se a opção `"Outro"` for selecionada.
 3. **Validação antes do envio:** Ao clicar em `Enviar mensagem` (`submit`), `evento.preventDefault()` impede o recarregamento da página e `validarFormulario()` verifica todos os campos obrigatórios e habilitados.
 4. **Simulação de envio assíncrono:** Estando tudo válido, o botão é temporariamente desabilitado (`Enviando...`) e a função `enviarSimulado()` aguarda 1 segundo via `Promise` + `setTimeout`. Se a caixa de teste *"Simular falha no envio"* estiver marcada, o sistema exibe mensagem de falha preservando os dados digitados para nova tentativa; caso contrário, confirma o envio simulado, limpa os campos (`form.reset()`) e oculta novamente o assunto adicional.
